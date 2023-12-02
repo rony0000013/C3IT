@@ -9,7 +9,7 @@ import Swaper from "./Swaper";
 const Brochure = () => {
   return (
     <div style={{ width: "100%", backgroundColor: "white", padding: "1rem 0" }}>
-      <div id="about" className="container mt-5 mb-5">
+      <div id="about" className="container mt-5 mb-1">
         <div className="row">
           <div className="col-4">
             <Link to="/brochure-detail">
@@ -75,6 +75,14 @@ const Brochure = () => {
           
         </div>
       </div>
+      <div className="container mt-5 mb-5" style={{width: "100%", textAlign: "center", justifyItems: "center", alignItems: "center"}}>
+        
+        <Link to="/brochure-detail">
+          <button type="button" className="btn btn-lg col-ab-ccics" style={{fontSize: 40, color: "white"}}>CALL FOR PAPERS</button>
+        </Link>
+        <br/>
+      </div>
+      <br/>
     </div>
   );
 };

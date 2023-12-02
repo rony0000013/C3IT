@@ -63,7 +63,7 @@ const Slider = () => {
           <br />
           {/* <h5><i>In association with</i><br /><span style={{fontWeight:"bold"}}>IEEE Kolkata Section</span></h5> */}
 
-          <h3 style={{fontWeight: 'normal', fontSize: 18}}> Technically Cosponsored by </h3>
+          <h3 style={{fontWeight: 'normal', fontSize: 18}}> Technically Co-sponsored by </h3>
           <h2 style={{fontWeight: 'normal', fontSize: 26}}>IEEE Computer Society</h2>
           <img src="img/ieee-computer-society-logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img>
           {/* <img src="img/CSI_Logo.png" style={{height: 100, width: 100, padding: 10}}></img> */}
