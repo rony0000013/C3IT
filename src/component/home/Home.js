@@ -32,9 +32,9 @@ const Slider = () => {
       <img src="img/slider-img-3.jpeg" alt="" className="slides" /> */}
       <div className="content">
         <span>
-          <h2 style={{fontWeight: 'normal', fontSize: 28, fontStyle: 'italic'}}>4th International Conference on</h2>
+          <h2 style={{fontWeight: 'normal', fontSize: 28, fontStyle: 'italic'}}>4<sup>th</sup> International Conference on</h2>
           <h1 style={{fontWeight: 'bold', fontSize: 30}}>
-          Computer, Communication, Control & Information Technology <br/>[ C3IT ] 2024
+          Computer, Communication, Control and Information Technology <br/>( C3IT ), 2024
           </h1>
 
           {/* <h2 style={{fontWeight: 'normal',display:"inline"}}>based on Conference Theme </h2>
@@ -46,8 +46,9 @@ const Slider = () => {
 
           </h1> */}
           
-          <h3></h3>
-          {/* <h2>7<sup>th</sup> & 8<sup>th</sup> October, 2023</h2> */}
+          <h3 style={{fontSize: 24}} >
+            ( 28<sup>th</sup> & 29<sup>th</sup> September, 2024 )
+          </h3>
           <h3>
             ( H Y B R I D &nbsp; M O D E )
           </h3>
@@ -61,15 +62,14 @@ const Slider = () => {
           {/* <h5>Aedconagar, Adisaptagram, Hooghly,</h5>
           <h5>West Bengal - 712121</h5> */}
           <br />
-          {/* <h5><i>In association with</i><br /><span style={{fontWeight:"bold"}}>IEEE Kolkata Section</span></h5> */}
 
           <h3 style={{fontWeight: 'normal', fontSize: 18}}> Technically Co-sponsored by </h3>
-          <h2 style={{fontWeight: 'normal', fontSize: 26}}>IEEE Computer Society</h2>
-          <img src="img/ieee-computer-society-logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img>
-          {/* <img src="img/CSI_Logo.png" style={{height: 100, width: 100, padding: 10}}></img> */}
-          {/* <img src="img/IEI_Logo.png" style={{height: 100, width: 100, padding: 10}}></img>
-          <img src="img/IETE_Logo.png" style={{height: 100, width: 100, padding: 10}}></img>
-          <img src="img/image4.jpeg" style={{height: 100, width: 100, padding: 10}}></img> */}
+          <h2 style={{fontWeight: 'normal', fontSize: 26}}>IEEE Kolkata Section</h2>
+          <img src="img/ieee-kolkata-section-logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img>
+          {/* <img src="img/CSI_Logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img> */}
+          {/* <img src="img/IEI_Logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img> */}
+          {/* <img src="img/IETE_Logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img> */}
+          {/* <img src="img/image4.jpeg" style={{height: 100, width: 200,padding:10, borderRadius: 0 }}></img> */}
          
         </span>
       </div>
