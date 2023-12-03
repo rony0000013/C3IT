@@ -76,10 +76,10 @@ const Brochure = () => {
         </div>
       </div>
       <div className="container mt-5 mb-5" style={{width: "100%", textAlign: "center", justifyItems: "center", alignItems: "center"}}>
-        
-        <Link to="/brochure-detail">
+      <iframe title='brochure' src="https://drive.google.com/file/d/1jFh66k9g91mE6Xog8mor4L2ILiQxx4aB/preview" width="100%" height="900px" allow="autoplay"></iframe>
+        {/* <Link to="/brochure-detail">
           <button type="button" className="btn btn-lg col-ab-ccics" style={{fontSize: 40, color: "white"}}>CALL FOR PAPERS</button>
-        </Link>
+        </Link> */}
         <br/>
       </div>
       <br/>
