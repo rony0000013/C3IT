@@ -1,0 +1,53 @@
+.main{
+    padding: 2vh 3vw;
+    margin-top: 7vh;
+    overflow: hidden;
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head{
+    height: 107vh;
+    width: 25vw;
+    border-radius: 20px 0 0 20px;
+}
+
+.submissionContent{
+    padding: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+}
+.submissionContent h1{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.submissionContent p{
+    text-align: justify;
+}
+.submissionContent span{
+    font-weight: 700;
+}
+.submissonLink p{
+    font-weight: 700;
+}
+.header{
+    display: none;
+}
+@media (max-width:1024px) {
+    .head{
+        display: none;
+    }
+    .header{
+        display: block;
+        width: 100vw;
+    }
+    .main{
+        overflow: hidden;
+        flex-direction: column;
+        margin: 0;
+    }
+}

@@ -1,0 +1,146 @@
+.regmain{
+    margin: 14vh 70px;
+}
+/* .regmain img{
+    width: 100vw;
+} */
+.publicaiton img{
+    height: 40vh;
+    width: 50vw;
+    border-radius: 30px;
+}
+.publicaiton{
+    /* height: 50vh;*/
+    /* width: 80vw; */
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap:2vw;
+    /* background-color: antiquewhite; */
+}
+.register{
+    display: flex;
+    flex-direction: column;
+}
+.regtables{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2vw;
+}
+.regcontents{
+    text-align: justify;
+    /* background-color: aqua; */
+}
+.regtable1{
+    border: solid 2px black;
+}
+.regtable1 p{
+    margin: 7px;
+}
+.regtable1 tr{
+    line-height: 25px;
+}
+.regtable1 td{
+    padding: 0px 10px;
+    border: solid 2px black;
+    text-align: center;
+}
+.regtable1 th{
+    border: solid 2px black;
+    text-align: center;
+}
+
+.regtable2{
+    border: solid 2px black;
+}
+.regtable2 p{
+    margin: 7px;
+}
+.regtable2 tr{
+    line-height: 25px;
+}
+.regtable2 td{
+    padding: 3px 10px;
+    border: solid 2px black;
+    text-align: center;
+}
+.regtable2 th{
+    border: solid 2px black;
+    text-align: center;
+}
+
+@media (max-width:838px) {
+    .regmain{
+        margin: 14vh 15px;
+    }
+    .regtables{
+        flex-direction: column;
+    }
+    /* .regtable1 td,th{
+        font-size: 10px;
+    }
+    .regtable2 td,th{
+        font-size: 10px;
+    }
+    .regtable2 tr{
+        line-height: 15px;
+    } */
+    
+}
+@media (max-width:588px) {
+    .regmain{
+        margin: 8vh 15px;
+    }
+    .publicaiton h1{
+        font-size: 17px;
+    }
+    .publicaiton p{
+        font-size: 13px;
+    }
+    .register h1{
+        font-size: 17px;
+    }
+    .register p{
+        font-size: 13px;
+    }
+    .Guidelines h1,h3,h5{
+        font-size: 17px;
+    }
+    .Guidelines h5{
+        font-size: 13px;
+    }
+    .Guidelines ul li{
+        font-size: 13px;
+    }
+    .Guidelines p{
+        font-size: 13px;
+    }
+    .pay h1{
+        font-size: 17px;
+    }
+    .pay ul li{
+        font-size: 13px;
+    }
+    .pay p{
+        font-size: 13px;
+    }
+    .communication h1{
+        font-size: 17px;
+    }
+    .communication ul li{
+        font-size: 13px;
+    }
+    .communication h5{
+        font-size: 13px;
+    }
+   .regtable1 td,th,p{
+        font-size: 10px;
+    }
+    .regtable2 td,th,p{
+        font-size: 10px;
+    }
+    .regtable2 tr{
+        line-height: 15px;
+    }
+}

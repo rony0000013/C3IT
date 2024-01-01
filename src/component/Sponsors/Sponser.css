@@ -1,0 +1,33 @@
+.spon-row{
+    width: 80vw;
+
+}
+.spon-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.spon-col{
+    
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    border: 1px solid #94a4c1 ;
+    background-color: #E7EDF9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+.spon-col img{
+    border-radius: 50%;
+   
+}
+.img-cover{
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px solid #94a4c1 ;
+    box-shadow: 0 0 12px #9db3dbb3;
+}
