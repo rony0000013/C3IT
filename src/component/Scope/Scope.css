@@ -1,0 +1,28 @@
+
+.tracks{
+    background-color: #e7edf9;
+    padding: 3.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1.5px solid #bfd3fc;
+}
+.tracks .FM1{
+    color: black;
+    margin-bottom: 2.4rem;
+    line-height: 1.2;
+}
+.tracks ul{
+    padding-left: 1rem;
+}
+.tracks img{
+display:none;
+visibility: hidden;
+    max-height: 250px;
+    max-width: 100%;
+}
+.tracks .col-3{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
