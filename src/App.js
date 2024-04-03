@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Home from "./component/home/Home";
 import Nav from "./component/Wrap/nav/nav";
 import Footer from "./component/Wrap/footer/Footer";
@@ -26,35 +26,22 @@ import {
 } from "react-router-dom";
 import BrochureDetail from "./component/home/BrochureDetail";
 import GoToTop from "./component/home/GoToTop";
-import { GrHide } from "react-icons/gr";
+// import { GrHide } from "react-icons/gr";
 
 function App() {
 
-
-    // Disable right-click
-    // document.addEventListener('contextmenu', (e) => e.preventDefault());
-
-    // function ctrlShiftKey(e, keyCode) {
-    //   return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
-    // }
-
-    // document.onkeydown = (e) => {
-    //   // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
-    //   if (
-    //     e.keyCode === 123 ||
-    //     ctrlShiftKey(e, 'I') ||
-    //     ctrlShiftKey(e, 'J') ||
-    //     ctrlShiftKey(e, 'C') ||
-    //     (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
-    //   )
-    //     return false;
-    // };
+    const [width,setwidth]=useState(window.innerWidth);
+    useEffect(()=>{
+      window.addEventListener("resize",()=>{
+        setwidth(window.innerWidth)
+      })
+    })
 
   return (
     <Router>
-      <Loding />  
-      <GoToTop />
-      <Nav></Nav>
+      <Loding />
+      {(width>=1024)?<GoToTop />:null}
+      {(width>768)?<Nav/>:<p>Hello there</p>}
       <Switch>
         <Route path="/schedule">
           <Schedule />

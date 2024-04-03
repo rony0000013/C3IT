@@ -1,9 +1,8 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import "./Home.css"
 import $ from "jquery"
 import {TbArrowBigUpLines} from "react-icons/tb"
 const GoToTop = () => {
-    console.log(window.scrollX+"  "+window.scrollY)
     $(window).on("scroll",()=>{
         if(window.scrollY>130)
         {
@@ -15,6 +14,13 @@ const GoToTop = () => {
     const Top=()=>{
         window.scroll(0, 0);
     }
+
+    const [width,setwidth]=useState(window.innerWidth);
+    useEffect(()=>{
+      window.addEventListener("resize",()=>{
+        setwidth(window.innerWidth)
+      })
+    })
   return (
     <div className='GoToTop' onClick={Top}>
       <TbArrowBigUpLines/>
