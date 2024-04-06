@@ -26,7 +26,7 @@ const Video = () => {
     <div className="VD">
     <img src="img/about-video-bg.jpg" alt="not" />
     <span onClick={play}><ImPlay2/></span>
-    <video id="AOTVideo"class="video" controls onPause={pause} >
+    <video id="AOTVideo" class="video" controls onPause={pause} >
         <source src="video/AOT.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
     </video>

@@ -201,6 +201,11 @@
     color:#2DBFF8;
 }
 
+@media (max-width:767px){
+    .Gallery img{
+        height: 10px;
+    }
+}
 /* gallery-end */
 /* About-start */
 .About{

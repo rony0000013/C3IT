@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import Home from "./component/home/Home";
 import Nav from "./component/Wrap/nav/nav";
+import Nav2 from "./component/Wrap/nav/nav2.jsx";
+
 import Footer from "./component/Wrap/footer/Footer";
 import Schedule from "./component/Schedule/Schedule";
 import Speaker from "./component/Speaker/Speaker";
@@ -17,7 +19,7 @@ import Attractions from "./component/Attractions/Attractions";
 import Sponsors from "./component/Sponsors/Sponsors";
 import Loding from "./component/loading/Loding";
 import PrevConf from "./component/PrevConf/PrevConf";
-
+import "./App.css"
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,7 +29,6 @@ import {
 import BrochureDetail from "./component/home/BrochureDetail";
 import GoToTop from "./component/home/GoToTop";
 // import { GrHide } from "react-icons/gr";
-
 function App() {
 
     const [width,setwidth]=useState(window.innerWidth);
@@ -38,10 +39,12 @@ function App() {
     })
 
   return (
+    <div className="navhead">
+    
     <Router>
-      <Loding />
+      {/* <Loding /> */}
       {(width>=1024)?<GoToTop />:null}
-      {(width>768)?<Nav/>:<p>Hello there</p>}
+      {(width>768)?<Nav2/>:<Nav />}
       <Switch>
         <Route path="/schedule">
           <Schedule />
@@ -96,6 +99,7 @@ function App() {
       </Switch>
       <Footer/>
     </Router>
+    </div>
   );
 }
 
