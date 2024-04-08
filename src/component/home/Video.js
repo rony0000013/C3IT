@@ -22,7 +22,7 @@ const Video = () => {
       videoRef.current.play();
     } else {
       videoRef.current.style.padding = '5px';
-      videoRef.current.style.backgroundColor = 'lightblue'; 
+      videoRef.current.style.backgroundColor = 'yellow'; 
       videoRef.current.pause();
     }
   };
@@ -47,20 +47,13 @@ const Video = () => {
   //   }
   return (
     <>
-      {(width)>768?<div className="VD">
-      {/* <img src="img/about-video-bg.jpg" alt="not" /> */}
-      {/* <span onClick={play}><ImPlay2/></span> */}
-      <span  onClick={togglePlay}>{isPlaying ? <IoPauseCircle style={{position: "absolute", left: "72%"}}/> : ""}</span>
-      <video style={{width: "45vw"}} ref={videoRef} src="video/AOT.mp4" autoPlay muted loop onClick={togglePlay}>
+      {(width)>768?
+      <div className='videoContainer'>
+      <video id="AOTVideo"  ref={videoRef} src="video/AOT.mp4" autoPlay muted loop onClick={togglePlay}>
         Your browser does not support HTML5 video.
       </video>
-      {/* Custom controls */}
-      {/* <button onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button> */}
-      {/* <video id="AOTVideo" class="video" controls onPause={pause} >
-          <source src="video/AOT.mp4" type="video/mp4"/>
-          <p>Your browser does not support the video tag.</p>
-      </video> */}
-      </div>:<><video style={{padding: "10px", backgroundColor:'black'}} id="AOTVideo" controls autoPlay muted loop>
+      </div>
+      :<><video style={{padding: "10px", backgroundColor:'black'}} ref={videoRef} id="AOTVideo" autoPlay muted loop onClick={togglePlay}>
           <source src="video/AOT.mp4" type="video/mp4" />
           <p>Your browser does not support the video tag.</p>
       </video></>}

@@ -91,7 +91,7 @@ const Home = () => {
       <Slider />
       {/* <Timer /> */}
       <Brochure />
-      {(width>768)?null:<Video />}
+      {(width>768)?<Video />:<Video />}
       <Dummy height="5rem" />
       <About />
     

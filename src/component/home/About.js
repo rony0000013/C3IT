@@ -1,15 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect} from 'react'
 import {MdKeyboardArrowRight,MdKeyboardArrowLeft} from "react-icons/md";
 
 import Video from "./Video";
 import "./About.css";
 const About = () => {
-  const imgArray=["img/gallery-img-1.jpeg","img/gallery-img-3.jpeg","img/gallery-img-4.jpeg","img/gallery-img-5.jpg","img/gallery-img-6.jpg","img/gallery-img-7.jpg"];
+  
   const [width,setwidth]=useState(window.innerWidth);
   const [read,setread]=useState(false)
-  const [image,setimage]=useState()
-  const [imageopen,setimageopen]=useState(false)
-
     useEffect(()=>{
       window.addEventListener("resize",()=>{
         setwidth(window.innerWidth)
@@ -19,28 +16,19 @@ const About = () => {
         setread(!read)
     }
 
-    const showImage=(i)=>{
-        console.log(i)
-        setimageopen(imageopen)
-        if(!imageopen){
-          setimage(i)
-        }
-    }
-
   return (
     <>
-    {/* <img className="bigimage" src={image}/> */}
     <div className='About mb-0' id='gallery'>
       <div className="row">
         <div className={(width>768)?"col-6 col-up":"col-12 col-up"}>
         <h2 className='FM1 mb-5 '>About AOT</h2>
         <h4 className='FM4'> Academy of Technology was established in 2003 by an alumnus of IIT Kharagpur and IIM Calcutta with the objective of instituting academic excellence and a spirit of enquiry among young minds. Several renowned educationists, prominent alumni from IITs & IIMs and experts from the industry have been at the helm of the college from its very inception. During its early years, Prof. G S Sanyal – distinguished academician, outstanding teacher and ex-Director of IIT Kharagpur – was the Chairman of the Advisory Committee of the college.</h4>
-        {(width>768)?<h4 className='FM4'>
+        {(width>768)?<><h4 className='FM4'>
         AOT’s very first Principal was none other than Prof P B Dutta Gupta, a revered teacher of IIT Kharagpur, who continued to enrich AOT with valuable suggestions as BOG member till the last day of his life. Prof D Bhattacharya, retired Professor & HOD, E & EC Engg., IIT Kharagpur, is currently the Chairman of the Board of Governors and Director of the college. The advice and blessings of these stalwart figures have enabled AOT to achieve a foremost position among its peers in engineering education. AOT also has an impressive faculty profile. Senior professors with excellent track records at universities, IITs and other premium institutions and highly motivated and talented young faculty members with Masters and Doctoral degrees are the major strength of this institution.
-        </h4>:null}
+        </h4></>:null}
         </div>
         <div className="col-6 col-down">
-        {(width>768)?<><h2 className='FM1 mb-5'>View</h2><Video/></>:null}
+        {(width>768)?<><h2 className='FM1 '>Gallery</h2><br/><br/><Gallery/></>:null}
         </div>
       </div>
       {(width>768)?<> <div className="row">
@@ -54,15 +42,6 @@ const About = () => {
         </div><br/></>:null}
       <h3 onClick={readMore}>{(!read)?<><br/><u>Show more</u></>:<u>Show less</u>}</h3></>}
     
-    
-        {(width>768)?
-        <><br/><br/><br/>
-        <div className="galcontain">
-          <h2 className='FM1'>Gallery</h2><br/><br/>
-          <Gallery style={{}}/>
-        </div>
-        </>:null}
-    
     </div>
     <div className="galcontain">
         {(width<768)?<><h2 className='FM1 '>Gallery</h2><br/><br/><Gallery/></>:null}
@@ -72,7 +51,6 @@ const About = () => {
 }
 
 const Gallery=()=>{
-    
     const imgArray=["img/gallery-img-1.jpeg","img/gallery-img-2.jpeg","img/gallery-img-3.jpeg","img/gallery-img-4.jpeg","img/gallery-img-5.jpg","img/gallery-img-6.jpg","img/gallery-img-7.jpg"];
     const[img, setImg]=useState(0);
    
@@ -94,5 +72,4 @@ const Gallery=()=>{
         </div>
     )
 }
-
 export default About

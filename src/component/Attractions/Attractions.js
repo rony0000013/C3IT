@@ -5,7 +5,7 @@ import {ImLocation} from "react-icons/im"
 import Dummy from "../home/Dummy"
 const Attractions = () => {
   return (
-    <div className='mt-5 container'>
+    <div className='mt-5 container' style={{marginBottom:"10%"}}>
       {<Heading>Attractions</Heading>}
       {/* item-start */}
       <div className="row">

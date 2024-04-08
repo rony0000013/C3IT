@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../Heading'
 const Schedule = () => {
   return (
-    <div className='mt-5'>
+    <div className='mt-5' style={{marginBottom: "8%"}}>
     {<Heading>schedule</Heading>}
     <div style={{width:"100%",height:"440px",display:'flex',justifyContent:'center'}}>
       <h1>Will be updated soon..</h1>

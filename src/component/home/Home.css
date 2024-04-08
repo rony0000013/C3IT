@@ -193,12 +193,33 @@
     /* background-color: var(--bg-blue); */
     transition-duration: 1s;
 }
+.videoContainer{
+    margin: 0 14vw;
+    /* border-radius: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    background-color: #000f1a;
+    /* margin-bottom: -100px; */
+}
+#AOTVideo{
+    width: 68vw;
+    /* background-color: #001C30; */
+    /* border: 10px solid #a5c1d4; */
+    /* border-radius: 20px; */
+    /* -left: 0%; */
+    /* margin-bottom: -80px; */
+}
 @media (max-width: 768px){
     #AOTVideo{
-        z-index: 8;
+        border: 10px solid #001C30;
+        border-radius: 0px;
+        /* z-index: 8; */
         padding-left: 0%;
         width: 100%;
         height: auto;
+        margin-bottom: -100px;
     }
 }
 /* video end */

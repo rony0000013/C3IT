@@ -6,6 +6,7 @@ import {imgData} from "./imgData.js"
 const Sponsors = () => {
   return (
     <>
+    <div style={{margin: "5% 5% 25% 5%"}}>
     <Heading>Sponsors</Heading>
     <div className="spon-wrap">
       {/* <div className="spon-row"> */}
@@ -21,7 +22,7 @@ const Sponsors = () => {
         }
       {/* </div> */}
     </div>
-   {/* </div> */}
+   </div>
    </>
   )
 }
