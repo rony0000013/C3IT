@@ -38,12 +38,16 @@
     display: none;
 }
 @media (max-width:1024px) {
+    .main p{
+        font-size: 14px;
+    }
     .head{
         display: none;
     }
     .header{
         display: block;
         width: 100vw;
+        margin-top: -15px;
     }
     .main{
         overflow: hidden;

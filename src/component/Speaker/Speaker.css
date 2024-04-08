@@ -86,5 +86,28 @@
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
     }
-
-/* @media screen (max-width: ) */
+@media (max-width: 768px){
+  .sp-img img{
+    width: 200px;
+  }
+  .sp-img img{
+    /* border-radius: 50%; */
+  }
+  .sp-wrap{
+    margin-top: 30px;
+    overflow: hidden;
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 20px 3px #000000 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0B173D;
+  }
+  .sp-info{
+    margin-top: -15px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+}

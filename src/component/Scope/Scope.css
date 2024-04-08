@@ -26,3 +26,11 @@ visibility: hidden;
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 1028px){
+    .callForPapers p{
+        font-size: 14px;
+    }
+    .FM1{
+        font-size: 24px;
+    }
+}

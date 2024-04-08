@@ -1,11 +1,25 @@
+
 .card{
     width: 30%;
+    height: 70vh;
     background-color: black;
-    margin: 1rem 1rem 5rem 1rem;
+    margin: 0rem 1rem 5rem 1rem;
     text-align: center;
 }
 
 .caption{
     color: white;
     margin: 1rem;
+}
+.conferences{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 768px){
+    .card{
+        width: 100%;
+        height: 50vh;
+    }
 }

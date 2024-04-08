@@ -5,7 +5,7 @@
 } */
 .slider{
     margin-top: 1.8rem;
-    height: 100vh;
+    height: 107vh;
     width: 100%;
 
     background-size: 100% 100%;
@@ -15,6 +15,37 @@
     
     
     animation: change 15s alternate ease-in-out  infinite ;
+    /* background-color: #001C30; */
+}
+@media (max-width: 768px){
+    .slider{
+        height: 107vh;
+        animation: none;
+        /* background-image: url("../../../public/img/track2.png"); */
+        background-color: #2b55a3;
+    }
+    .slider .content{
+        height: 107vh;
+    }
+    .slider .content h1{
+        font-size: 12px;
+        color: rgb(255, 255, 255);       
+    }
+    .slider .content h2{
+        font-size: 10px;
+        color: rgb(255, 179, 36); 
+    }
+    .slider .content h3{
+        font-size: 16px;
+        color: rgb(255, 255, 255); 
+    }
+    .slider .content h4{
+        font-size: 20px;
+
+    }
+    .slider .content h5{
+        font-size: 20px;
+    }
 }
 .slides{
     height: 100%;
@@ -22,6 +53,11 @@
     position: absolute;
     z-index: 0;
 }
+/* @media (max-width: 768px){
+    .slider{
+        margin-top: 0rem;
+    }
+} */
 .slider .content{
     display: flex;
     align-items: center;
@@ -32,13 +68,13 @@
     /* text-shadow: 0 .5px 2px rgb(255, 255, 255) ; */
     font-family: sans-serif;
     position: absolute;
-    height: 100%;
+    height: 107vh;
     width: 100%;
     z-index: 1;
     top:1.8rem;
     background:rgba(0, 0, 0, 0.6)
-    
 }
+
 .slider .content h1{
     line-height: 1.2;
     font-weight: bold;
@@ -70,7 +106,6 @@
     margin-bottom: 3rem;
     font-weight: normal;
     margin: 0 !important;
-   
 }
 @keyframes change {
     0%{
@@ -126,7 +161,7 @@
     align-items: center;
     background: rgba(0, 0, 0,0.5);
     text-align: center;
-    height: 550px;
+    /* height: 550px; */
     
     /* background: transparent; */
     transition: 1s;
@@ -135,24 +170,22 @@
     font-size: 60px;
     color: white;
     transition: 0.4s;
-   cursor: pointer;
+    cursor: pointer;
 }
-.VD span:hover{
+/* .VD span:hover{
     font-size: 70px;
-   
-   
-}
-.VD img{
+} */
+/* .VD img{
     width: 100%;
     position:fixed;
     top: -14rem;
     z-index: -1;
-}
+} */
 .video{
     /* padding: 4rem 0; */
    /* visibility: hidden;
    display: none; */
-   transition-property: height;
+    transition-property: height;
     /* width: 100%; */
     height:0px;
     /* box-shadow: 0 0 10px grey; */
@@ -160,7 +193,14 @@
     /* background-color: var(--bg-blue); */
     transition-duration: 1s;
 }
-
+@media (max-width: 768px){
+    #AOTVideo{
+        z-index: 8;
+        padding-left: 0%;
+        width: 100%;
+        height: auto;
+    }
+}
 /* video end */
 /* About CCICS :start */
 .col-ab-ccics{
@@ -184,7 +224,7 @@
 .Gallery .content{
     height: 310px;
     width: 550px;
-    background-color: red;
+    /* background-color: #ffbd44; */
 }
 .Gallery .content img{
     height: 100%;
@@ -193,6 +233,7 @@
     box-shadow: 0 0 20px rgba(59, 59, 59,0.4);
 }
 .Gallery .g-button{
+    color: white;
     font-weight: bolder;
     font-size: 35px;
     cursor: pointer;
@@ -201,9 +242,25 @@
     color:#2DBFF8;
 }
 
-@media (max-width:767px){
-    .Gallery img{
-        height: 10px;
+@media (max-width:768px){
+    .Gallery .content{
+        height: 200px;
+        width: 550px;
+    }
+    .Gallery {
+        padding-bottom: 1rems;
+    }
+    #galimage{
+        border-radius: 10px;
+    }
+    .galcontain{
+        width: 100vw;
+        height: 360px;
+        background-color: #001b2e;
+    }
+    .galcontain h2{
+        color: #ffffff;
+        padding-left: 10%;
     }
 }
 /* gallery-end */
@@ -232,7 +289,6 @@
     text-align: center;
 }
 .form{
-   
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -277,6 +333,11 @@
     width: 220px;
     height: 49px;
 }
+.form form{
+    width: 100%; 
+    /* background-color: #001C30;  */
+}
+
 /* contact-end */
 /* Faq-start */
 .FAQ{
@@ -305,6 +366,8 @@
 
 /* GoToTop start */
 .GoToTop{
+    z-index: 999;
+    position: relative;
     height: 50px;
     width: 50px;
     background-color: var(--bg-blue);

@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 
 const ImageDiv = (e) => {
     return (
-        <img style={{borderRadius:"7px",boxShadow:"0 0 2px grey"}} src={e.link} height={100} width={150} alt="" />
+        <img style={{borderRadius:"7px",boxShadow:"0 0 2px grey"}} src={e.link} height={90} width={140} alt="" />
     );
 }
 export default () => {
@@ -27,8 +27,8 @@ export default () => {
             }}
             // navigation
 
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            // onSlideChange={() => console.log('slide change')}
+            // onSwiper={(swiper) => console.log(swiper)}
             className='mt-3 mb-0'
         >
             <SwiperSlide><ImageDiv link={"img/gallery-img-1.jpeg"} /></SwiperSlide>

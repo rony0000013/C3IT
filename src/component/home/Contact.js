@@ -1,13 +1,14 @@
 import React from 'react'
-
+import "./Home.css"
 const Contact = () => {
   return (
 
     <div className="contact" id='contact'>
         <h1>Contact Us</h1>
         <br />
-      <div className="container form">
-        <form action="https://formsubmit.co/anil.sharma@aot.edu.in" method="post">
+      <div className="container form contactForm">
+      {/* className="contactForm" */}
+        <form  className="contactForm" action="https://formsubmit.co/anil.sharma@aot.edu.in" method="post">
             <input className="formItems " name="name" placeholder="Enter Name..." type="text" />
             <br/>
             <input className="formItems " name="email" placeholder="Enter Email..." type="email" />
@@ -16,11 +17,9 @@ const Contact = () => {
             <br />
             <br />
             <div className="button">
-            <button type='submit'>SUBMIT</button>
+              <button type='submit'>SUBMIT</button>
             </div>
         </form>
-
-   
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ import { ScopeCard } from './ScopeCard';
 const Scope = () => {
   return (
     <>
-    <div className='mt-5'>
+    <div className='mt-5 callForPapers'>
       {/* {<Heading>THE C3IT 2024</Heading>} */}
       <h1 style={{textAlign:"center", padding:"5vh 0"}}>
       THE C3IT 2024

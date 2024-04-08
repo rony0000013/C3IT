@@ -1,7 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useState, useEffect } from 'react';
+import Aotlogo from "./aotLogo.jpg";
 import Style from "./nav.module.css";
 import { HashLink as Link } from 'react-router-hash-link';
-import { useState, useEffect } from 'react';
+import { FiAlignJustify, FiX } from "react-icons/fi";
 
 const Nav=()=>{
 
@@ -14,10 +15,9 @@ const Nav=()=>{
     <>
       <div className={Style.mainNav} >
         {/* <div > */}
-        <Link className={Style.logo}to="/"> <img src="img/aot-logo.jpg" height={34}  width={80} alt="" /></Link>
+        <Link className={Style.logo} to="/"><img src={Aotlogo} height={34}  width={80} alt="" /></Link>
         {/* </div> */}
-
-        <img className={Style.menu} src={(!menu)?"img/menu_bar.svg":"img/cross.png"} onClick={showMoreOption}/>
+        <h1 onClick={showMoreOption}>{(!menu)?<FiAlignJustify />:<FiX/>}</h1>
       </div>
       {(menu)?<NavMenu/>:null}
     </>

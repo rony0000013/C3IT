@@ -17,9 +17,9 @@
 } */
 
 .mainNav{
-  padding: .5rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   /* padding-left:7rem ; */
-  position: relative;
+  position: absolute;
   z-index: 6;
   display: flex;
   align-items: center;
@@ -34,7 +34,9 @@
   background-color: var(--bodybg1);
 }
 .logo{
-  height: 100%;
+  /* height: 100%; */
+  width: 100%;
+  height: auto;
   position: relative;
   /* display: flex; */
   /* align-items: center; */
@@ -42,30 +44,32 @@
 }
 .menu{
   position: relative;
-  width: 5vw;
+  width: 7vw;
   height: auto;
   cursor: pointer;
 }
 
 .navItemm{
-  /* margin-top: rem; */
+  /* margin-top: 2.2rem; */
+  padding-top: 3.1rem;
   width: 100%;
   height: auto;
   background-color: var(--bodybg1);
+  /* background-color: #fafafa; */
   box-shadow: 0 0 15px grey;
   z-index: 5;
   position: absolute;
   display: flex;
   justify-content:right;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
   /* height: 100%; */
   /* background-color: red; */
 }
 .navItemm a{
   /* height: 10%; */
   /* margin: 0 5px; */
-  padding: 5px 10px;
+  padding: 12px 25px;
   display: flex;
   font-size: 20px;
   font-weight:500;
@@ -79,10 +83,11 @@
   transition: 0.3s;
 }
 .navItemm a:hover{
-  border-radius: 5px;
+  /* border-radius: 5px; */
   text-decoration: none;
-  /* background-color: #2DBFF8; */
-  color: #2DBFF8 !important;
+  background-color: #2DBFF8;
+  /* background-color: #ffb71c; */
+  color: #ffffff !important;
 }
 .icon{
   transform: scale(1.6);
@@ -102,26 +107,33 @@
 
 }
 .dropdownContent{
-  margin-left: .4rem;
-  position: absolute;
-  border-radius: 5px;
+  /* left: 20%; */
+  /* top: 60%; */
+  margin-top: -5px;
+  /* margin-left: 4rem; */
+  position: relative;
+  /* border: 3px solid white; */
+  /* border-radius: 10px; */
   overflow: hidden;
   background-color: var(--bodybg1);
+  background-color: #165b9b;
   box-shadow: 0 0 3px rgb(177, 177, 177);
   transition: 1s;
 }
 .dropdownContent a{
+  border: 1px solid white;
+  color: white;
   width: auto;
   margin: 0;
-  height: 40px;
+  /* height: 40px; */
   min-width: 110px;
   transition: 0s;
   text-transform: capitalize;
 }
 
-@media (max-width: 20000px) {
+@media (max-width: 768px) {
   .navItemm a{
-    font-size: 12px;
+    font-size: 14px;
   }
   .logo img{
     width: 20%;

@@ -1,20 +1,28 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import Generator from "../Committee/Generator";
 import CardGen from "./CardGen";
 import Data1 from "./Data1";
 import Data2 from "./Data2";
 import Swaper from "./Swaper";
+import { BsLock } from "react-icons/bs";
 
 const Brochure = () => {
+
+    const [width,setwidth]=useState(window.innerWidth);
+    useEffect(()=>{
+      window.addEventListener("resize",()=>{
+        setwidth(window.innerWidth)
+      })
+    })
+
   return (
-    <div style={{ width: "100%", backgroundColor: "white", padding: "1rem 0" }}>
+    <div style={{ width: "100%", backgroundColor: "white", padding: "1rem 0"}}>
       <div id="about" className="container mt-5 mb-1">
         <div className="row">
-          <div className="col-4">
+          {(width>768)?<div className="col-4">
             <Link to="/brochure-detail">
-              <img
-              
+            <img
                 src="img/brochure.png"
                 height="740px"
                 width="300px"
@@ -22,8 +30,8 @@ const Brochure = () => {
                 style={{ cursor: "pointer" ,borderRadius:"7px"}}
               />
             </Link>
-          </div>
-          <div className="col-8 col-ab-ccics mb-0">
+          </div>:null}
+          <div className={(width>768)?"col-8 col-ab-ccics mb-0":"col-12 col-ab-ccics mb-0"}>
             <h2 className="FM1">About C3IT</h2>
             <br />
             <h4 className="FM4 mb-0">
@@ -63,7 +71,7 @@ const Brochure = () => {
               arena, business world, and industrial community and in turn to
               society.
             </h4>
-            <Swaper/>
+            {(width>768)?<Swaper/>:null}
           </div>
           <div className="mt-5 ">
             <Generator data={Data1} />
@@ -76,8 +84,8 @@ const Brochure = () => {
         </div>
       </div>
       <div className="container mt-5 mb-5" style={{width: "100%", textAlign: "center", justifyItems: "center", alignItems: "center"}}>
-      {/* <iframe title='brochure' src="https://drive.google.com/file/d/1jFh66k9g91mE6Xog8mor4L2ILiQxx4aB/preview" width="100%" height="900px" allow="autoplay"></iframe>  */}
-      <iframe title='brochure' src="https://drive.google.com/file/d/1BV_2ByiagHR7E9IUqj31CdJgr0f0oz9R/preview" width="100%" height="1000px" allow="autoplay"></iframe>
+      
+      <iframe title='brochure' src="https://drive.google.com/file/d/1BV_2ByiagHR7E9IUqj31CdJgr0f0oz9R/preview" width="100%" height={(width>768)?"1070px":"470px"} allow="autoplay"></iframe>
          {/* <Link to="/brochure-detail">
           <button type="button" className="btn btn-lg col-ab-ccics" style={{fontSize: 40, color: "white"}}>CALL FOR PAPERS</button>
         </Link>  */}

@@ -8,7 +8,7 @@ const CardGen = (props) => {
   return (
 
     <div className='container CardGenerator mb-5'>
-   
+      
       {
         Data.map((e)=>{
             return(

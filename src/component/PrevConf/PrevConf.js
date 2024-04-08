@@ -5,15 +5,8 @@ import "./styles.css";
 const PrevConf = () => {
   return (
     <div className="mt-5">
-      {<Heading> Previous Conferences </Heading>}
-      <div
-        style={{
-          width: "100%",
-          height: "100vh",
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
+      {<Heading> <h1>Previous Conferences</h1></Heading>}
+      <div className="conferences">
         <div className="card">
         <iframe          
           title="1stConf"
@@ -44,7 +37,6 @@ const PrevConf = () => {
         />
         <span className="caption">Website link: <a href="https://c3it2015.aot.edu.in">https://c3it2015.aot.edu.in</a></span>
         </div>
-
       </div>
     </div>
   );
