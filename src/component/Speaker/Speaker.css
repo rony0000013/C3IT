@@ -86,12 +86,9 @@
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
     }
-@media (max-width: 768px){
+@media (max-width: 1024px){
   .sp-img img{
     width: 200px;
-  }
-  .sp-img img{
-    /* border-radius: 50%; */
   }
   .sp-wrap{
     margin-top: 30px;

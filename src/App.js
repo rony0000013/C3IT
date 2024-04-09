@@ -44,7 +44,7 @@ function App() {
     <Router>
       <Loding />
       {(width>=1024)?<GoToTop />:null}
-      {(width>1024)?<Nav2/>:<Nav />}
+      {(width>=1237)?<Nav2/>:<Nav />}
       <Switch>
         <Route path="/schedule">
           <Schedule />

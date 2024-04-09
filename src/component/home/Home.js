@@ -39,8 +39,8 @@ const Slider = () => {
       <img src="img/slider-img-3.jpeg" alt="" className="slides" /> */}
       <div className="content">
         <span>
-          <h2 style={{fontWeight: 'normal', fontSize: 28, fontStyle: 'italic', paddingTop: "30px"}}>4<sup>th</sup> International Conference on</h2>
-          <h1 style={{fontWeight: 'bold', fontSize: 30}}>
+          <h2 style={{fontWeight: 'normal', fontSize: "2vmax", fontStyle: 'italic',margin: "10px", paddingTop: "30px",marginTop:(width>768)?"0vmax":"-10vmax"}}>4<sup>th</sup> International Conference on</h2>
+          <h1 style={{fontWeight: 'bold', fontSize: "3vmax", margin: "10px"}}>
           Computer, Communication, Control and Information Technology <br/>( C3IT ), 2024
           </h1>
 
@@ -53,7 +53,7 @@ const Slider = () => {
 
           </h1> */}
           
-          <h3 style={{fontSize: 24}} >
+          <h3 style={{fontSize: "2vmax"}} >
             ( 28<sup>th</sup> & 29<sup>th</sup> September, 2024 )
           </h3>
           <h3>
@@ -71,8 +71,8 @@ const Slider = () => {
           <br />
 
           <h3 style={{fontWeight: 'normal', fontSize: 18}}> Technically Co-sponsored by </h3>
-          <h2 style={{fontWeight: 'normal', fontSize: 26}}>IEEE Kolkata Section</h2>
-          {(width>768)?<img src="img/ieee-kolkata-section-logo.png" style={{height: 100, width: 200,padding:10, borderRadius: 0, borderRadius: "20px" }}></img>:null}
+          <h2 style={{fontWeight: 'normal', fontSize: "2.5vmax"}}>IEEE Kolkata Section</h2>
+          {(width>768)?<img src="img/ieee-kolkata-section-logo.png" style={{height: "auto", width: "10vmax", borderRadius: 0, borderRadius: ".5vmax" }}/>:<img src="img/ieee-kolkata-section-logo.png" style={{height: "auto", width: "17vmax", borderRadius: 0, borderRadius: ".5vmax" }}/>}
          
         </span>
       </div>
@@ -80,18 +80,19 @@ const Slider = () => {
   );
 };
 const Home = () => {
-  const [width,setwidth]=useState(window.innerWidth);
-    useEffect(()=>{
-      window.addEventListener("resize",()=>{
-        setwidth(window.innerWidth)
-      })
-    })
+  // const [width,setwidth]=useState(window.innerWidth);
+  //   useEffect(()=>{
+  //     window.addEventListener("resize",()=>{
+  //       setwidth(window.innerWidth)
+  //     })
+  //   })
   return (
     <>
       <Slider />
       {/* <Timer /> */}
       <Brochure />
-      {(width>768)?<Video />:<Video />}
+      <Video />
+      {/* {(width>=768)?<Video />:<Video />} */}
       <Dummy height="5rem" />
       <About />
     

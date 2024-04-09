@@ -44,7 +44,7 @@ const About = () => {
     
     </div>
     <div className="galcontain">
-        {(width<768)?<><h2 className='FM1 '>Gallery</h2><br/><br/><Gallery/></>:null}
+        {(width<=768)?<><h2 className='FM1 '>Gallery</h2><br/><br/><Gallery/></>:null}
     </div>
     </>
   )

@@ -4,6 +4,14 @@ import Style from "./nav.module.css";
 import { HashLink as Link } from 'react-router-hash-link';
 import { FiAlignJustify, FiX } from "react-icons/fi";
 
+
+export const showVal=(e,value)=>{
+  const buttonText=e.target.innerText
+  if(buttonText!='COMMITTEES' && buttonText!="FOR AUTHORS" && buttonText!="MORE"){
+      value()
+  }
+}
+
 const Nav=()=>{
 
   const [menu,setmenu]=useState(false)
@@ -19,14 +27,12 @@ const Nav=()=>{
         {/* </div> */}
         <h1 onClick={showMoreOption}>{(!menu)?<FiAlignJustify />:<FiX/>}</h1>
       </div>
-      {(menu)?<NavMenu/>:null}
+      {(menu)?<NavMenu value={showMoreOption}/>:null}
     </>
   )
 }
 
-
-const NavMenu = () => {
- 
+const NavMenu = ({value}) => {
   return (
     <>
     {/* <div className={Style.mainNav} > */}
@@ -34,7 +40,7 @@ const NavMenu = () => {
        <Link to="/"> <img src="img/aot-logo.jpg" height={34}  width={80} alt="" /></Link>
       </div> */}
     
-      <div className={Style.navItemm}>
+      <div className={Style.navItemm} onClick={(e)=>showVal(e,value)}>
       <Link to="/#about">about</Link>
       {/* <Link to="/scope">scope</Link> */}
       

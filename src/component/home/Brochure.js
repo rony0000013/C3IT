@@ -20,7 +20,7 @@ const Brochure = () => {
     <div style={{ width: "100%", backgroundColor: "white", padding: "1rem 0"}}>
       <div id="about" className="container mt-5 mb-1">
         <div className="row">
-          {(width>768)?<div className="col-4">
+          {(width>991)?<div className="col-4">
             <Link to="/brochure-detail">
             <img
                 src="img/brochure.png"
@@ -31,7 +31,7 @@ const Brochure = () => {
               />
             </Link>
           </div>:null}
-          <div className={(width>768)?"col-8 col-ab-ccics mb-0":"col-12 col-ab-ccics mb-0"}>
+          <div className={(width>991)?"col-8 col-ab-ccics mb-0":"col-12 col-ab-ccics mb-0"}>
             <h2 className="FM1">About C3IT</h2>
             <br />
             <h4 className="FM4 mb-0">
