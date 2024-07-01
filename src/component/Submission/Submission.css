@@ -37,6 +37,10 @@
 .header{
     display: none;
 }
+.submissionlink:hover{
+    transition: .5s;
+    color:rgb(184, 119, 0);
+}
 @media (max-width:1024px) {
     .main p{
         font-size: 14px;

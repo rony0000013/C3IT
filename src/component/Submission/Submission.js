@@ -46,9 +46,13 @@ const Submission=()=>{
                     {/* <a href="https://cmt3.research.microsoft.com/C3IT2024" style={{color:"orange",textDecoration:"none",fontWeight: 700}}>https://cmt3.research.microsoft.com/C3IT2024</a> */}
                     
                     
-                    <a href="https://docs.google.com/document/d/10KuczbfUAwfr-IQFVAcOd9F77P5dmPzd/edit?usp=sharing&ouid=115520160363554315095&rtpof=true&sd=true" style={{textDecoration:"none",color:"orange"}}><p>Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>word</span> format.</p></a>
+                    {/* <a href="https://docs.google.com/document/d/10KuczbfUAwfr-IQFVAcOd9F77P5dmPzd/edit?usp=sharing&ouid=115520160363554315095&rtpof=true&sd=true" style={{textDecoration:"none",color:"orange"}}><p>Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>word</span> format.</p></a> */}
 
-                    <a href="https://drive.google.com/file/d/1g7BdbxOVujjA0jBGPrWpFE4xUr1TBkGA/view?usp=sharing" style={{textDecoration:"none",color:"orange"}}><p>Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>LaTeX</span> format.</p></a>
+                    <a href="Conference-template_word_without_author-A4.doc" download="Conference-template_word_without_author-A4" style={{textDecoration:"none",color:"orange"}}><p className="submissionlink">Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>word</span> format.</p></a>
+
+                    {/* <a href="https://drive.google.com/file/d/1g7BdbIEEE Conference Template_latex_without_author.rarxOVujjA0jBGPrWpFE4xUr1TBkGA/view?usp=sharing" style={{textDecoration:"none",color:"orange"}}><p>Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>LaTeX</span> format.</p></a> */}
+
+                    <a href="IEEE Conference Template_latex_without_author.rar" download="IEEE Conference Template_latex_without_author.rar" style={{textDecoration:"none",color:"orange"}}><p className="submissionlink">Click here to download the IEEE conference template <span style={{textDecoration:"underline"}}>LaTeX</span> format.</p></a>
                 </div>
                 </div>
                 {/* 3rd div */}

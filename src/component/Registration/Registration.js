@@ -37,11 +37,11 @@ const Registration = () => {
               <th style={{backgroundColor:colour}}><p style={{color:"white"}}>Event</p></th><th style={{backgroundColor:colour}}><p style={{color:"white"}}>Date</p></th>
               <tr>
               <td style={{backgroundColor:colour}}><p style={{color:"white"}}>Last date for submission</p><p style={{color:"white"}}>of full paper</p></td>
-                <td>15.05.2024</td>
+                <td>31.07.2024</td>
               </tr>
               <tr>
                 <td style={{backgroundColor:colour}}><p style={{color:"white"}}>Intimation of acceptance</p></td>
-                <td>01.08.2024</td>
+                <td>16.08.2024</td>
               </tr>
               <tr>
               <td style={{backgroundColor:colour}}><p style={{color:"white"}} >Last date for submission</p><p style={{color:"white"}}>of camera ready paper</p></td>
