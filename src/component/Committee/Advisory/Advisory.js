@@ -12,7 +12,7 @@ const Advisory = () => {
         setwidth(window.innerWidth)
       })
     })
-
+    
   return (
     <div style={{ backgroundColor: "#F8F8F8" }}>
       <div className={(width>768)?"mt-5":"mt-2"}>

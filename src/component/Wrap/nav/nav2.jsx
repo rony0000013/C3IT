@@ -48,7 +48,7 @@ const Nav = () => {
             <Link to="/Sponsors">sponsors</Link>
             <Link to="/#gallery">gallery</Link>
             <Link to="/Attractions">Attractions</Link>
-            <Link to="/PrevConf">Prev Conferences</Link>      
+            <Link to="/PrevConf">Prev Conf</Link>      
           </div>
         </div>
         </div>
