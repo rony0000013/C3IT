@@ -135,7 +135,7 @@ const Registration = () => {
                 data[0].nonrefund.map((e)=>(<li style={{textAlign:"justify"}}>{e}</li>))
               }
             </ul>
-            <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE REGISTRATION FORM</p></a>
+            <a href="/REGISTRATION FORM 2024.docx" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE REGISTRATION FORM</p></a>
             <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE LIST OF ACCEPTED PAPERS</p></a>
         </div>
       </div> 
