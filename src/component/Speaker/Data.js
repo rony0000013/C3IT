@@ -104,6 +104,24 @@ const Data=[
         details:"MAKAUT",
         profileImg: "/img/DebashisDe.png"
     },
+    {
+        personalLink:"#1",
+        name:"Dr. Anindya Mukherjee",
+        details:"Infineon Technologies AG, Neubiberg, Germany",
+        profileImg: "/img/AnindyaMukherjee.png"
+    },
+    {
+        personalLink:"#1",
+        name:"Dr. Dip Prakash Samajdar",
+        details:"Electronics & Communications Engineering Assistant Professor, Solar Cells and VLSI Devices IIITDM, Jabalpur",
+        profileImg: "/img/DipPrakashSamajdar.png"
+    },
+    {
+        personalLink:"#1",
+        name:"Prof. Nikhil Ranjan Das",
+        details:"Professor, Radio Physics & Electronics, University of Calcutta",
+        profileImg: "/img/NikhilRanjanDas.png"
+    }
     
 ]
 export default Data;
