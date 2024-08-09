@@ -83,7 +83,7 @@ const Registration = () => {
                 </td>
               </tr>
               <tr>
-                <td style={{backgroundColor:colour}}><p style={{color:"white"}}>Conference</p></td>
+                <td style={{backgroundColor:colour}}><p style={{color:"white"}}>Student</p></td>
                 <td>
                   <tr>IEEE Member</tr>
                   <tr>Non-IEEE Member</tr>
@@ -135,7 +135,7 @@ const Registration = () => {
                 data[0].nonrefund.map((e)=>(<li style={{textAlign:"justify"}}>{e}</li>))
               }
             </ul>
-            <a href="/REGISTRATION FORM 2024.docx" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE REGISTRATION FORM</p></a>
+            <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE REGISTRATION FORM</p></a>
             <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE LIST OF ACCEPTED PAPERS</p></a>
         </div>
       </div> 

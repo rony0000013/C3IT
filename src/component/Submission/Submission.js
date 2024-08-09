@@ -26,7 +26,7 @@ const Submission=()=>{
                         Only online submission is allowed for C3IT-2024. All papers should be submitted through
                     </p>
                     <p style={{marginBottom: "5px", fontWeight: "bold"}}>Microsoft CMT</p>
-                    <p><span>[ <a href="https://cmt3.research.microsoft.com/C3IT2024" style={{textDecoration:"none",color:"orange"}}>https://cmt3.research.microsoft.com/C3IT2024</a> ]</span>. </p>
+                    <p><span> <a href="https://cmt3.research.microsoft.com/C3IT2024" style={{textDecoration:"none",color:"orange"}}>https://cmt3.research.microsoft.com/C3IT2024</a> </span> </p>
                     <p>
                     Email submission will NOT be accepted. The instructions for submitting your paper in C3IT-2024 is given below.
                     </p>

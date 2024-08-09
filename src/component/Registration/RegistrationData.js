@@ -47,8 +47,7 @@ const RegData=[
             "Send the above files to the conference mail conference@aot.edu.in."
         ],
         hard:[
-            "Send the DD/ Bank Transfer Receipt and duly filled C3IT2024 Registration Form by Registered Post or Speed Post on or before December 31, 2014 to",
-            "Conveners, C3IT2024,",
+            "Send the DD/ Bank Transfer Receipt and duly filled C3IT2024 Registration Form by Registered Post or Speed Post on or before September 01, 2024 to Conveners, C3IT2024,",
             "Department of ECE, Academy of Technology,",
             "Adisaptagram, Hooghly- 712121, West Bengal, India.",
             "Please mention 'C3IT2024 Registration Form and DD/ Bank Transfer Receipt for Paper no. ZZZ' on the top of the envelope."

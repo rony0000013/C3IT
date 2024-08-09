@@ -8,9 +8,9 @@ export const Data =[
     {
       "details": "Prof. Sanghamitra Bandyopadhyay, Director, ISI"
     },
-    {
-        "details": "Prof. Anupam Basu, Raja Ramanna Chair, JU"
-    },
+    // {
+    //     "details": "Prof. Anupam Basu, Raja Ramanna Chair, JU"
+    // },
     {
       "details": "Prof. Vijayan K Asari, University of Dayton, USA"
     },

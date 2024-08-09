@@ -18,17 +18,36 @@ export const Data={
             "details": "Dr. Hironmay Mondal, HoD, Department of Electrical & Electronics Engg, Academy of Technology"
         },
         {
-            "details": "Dr. Krishna Bhowal, Registrar, Academy of Technology"
-        },
-        {
-            "details": "Dr. Jhumpa De, Department of Mechanical Engg, Academy of Technology"
-        },
-        {
             "details": "Dr. Arindrajit Pal, Department of Computer Science Engg, Academy of Technology"
         },
         {
             "details": "Dr. Srinjoy Bid, HoD, Department of Engineering Sciences & Humanities, Academy of Technology"
-        }
+        },
+        {
+          "details": "Prof. Prasenjit Das"
+        },
+        {
+          "details": "Prof. Uday Kumar Mandal"
+        },
+        {
+          "details": "Prof. Suman Bhattacharya"
+        },
+        {
+          "details": "Prof. Abhinaba Dutta"
+        },
+        {
+          "details": "Prof. Subir Panja"
+        },
+        {
+          "details": "Prof. Sirshendu Saha"
+        },
+        {
+          "details": "Prof. Niloy Ghosh"
+        },
+        {
+          "details": "Prof. Basab K Chatterjee"
+        },
+        
     ],
     "comitte":[
           {
@@ -65,23 +84,23 @@ export const Data={
             "details": "Prof. Sudhesna Sarkar, CSE-ITKGP"
           },
           {
-            "details": "Prof. Jayanta Mukherjee, CSE-IITKGP"
-          },
-          {
             "details": "Prof. Pallab Dasgupta, CSE-IITKGP"
           },
-          {
-            "details": "Prof. Mritunjoy Chakaraborty, ECE IIT Kharagpur"
-          },
-          {
-            "details": "Prof. Tarun Bhattacharya, ECE IIT Kharagpur"
-          },
-          {
-            "details": "Prof. Prasanta K. Dasgupta, Calcutta University"
-          },
-          {
-            "details": "Prof. Pradeep K. Saha, Calcutta University"
-          },
+          // {
+          //   "details": "Prof. Jayanta Mukherjee, CSE-IITKGP"
+          // },
+          // {
+          //   "details": "Prof. Mritunjoy Chakaraborty, ECE IIT Kharagpur"
+          // },
+          // {
+          //   "details": "Prof. Tarun Bhattacharya, ECE IIT Kharagpur"
+          // },
+          // {
+          //   "details": "Prof. Prasanta K. Dasgupta, Calcutta University"
+          // },
+          // {
+          //   "details": "Prof. Pradeep K. Saha, Calcutta University"
+          // },
           {
             "details": "Prof. Susmita Mitra, ISI, Kolkata"
           },
