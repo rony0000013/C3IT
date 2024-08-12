@@ -1,51 +1,51 @@
 export const Data={
     "chaire":[
         {
-            "details": "Dr. Anupam Basu, Raja Ramanna Chair Professor, JU "
+            "details": "Prof. Anupam Basu, Raja Ramanna Chair Professor, JU "
         },
         {
-            "details": "Dr. Dilip Kumar Maity, Principal, Academy of Technology"
+            "details": "Prof. Dilip Kumar Maity, Principal, Academy of Technology"
         },
     ],
     "cochaire":[
         {
-            "details": "Dr. Abhijit Banerjee, HoD, Department of Electronics & Communication Engg, Academy of Technology"
+            "details": "Prof. Abhijit Banerjee, Academy of Technology"
         },
         {
-            "details": "Dr. Sandip S. Chowdhury, HoD, Department of Electrical Engg, Academy of Technology"
+            "details": "Prof. Sandip S. Chowdhury, Academy of Technology"
         },
         {
-            "details": "Dr. Hironmay Mondal, HoD, Department of Electrical & Electronics Engg, Academy of Technology"
+            "details": "Prof. Hironmay Mondal, Academy of Technology"
         },
         {
-            "details": "Dr. Arindrajit Pal, Department of Computer Science Engg, Academy of Technology"
+            "details": "Prof. Arindrajit Pal, Academy of Technology"
         },
         {
-            "details": "Dr. Srinjoy Bid, HoD, Department of Engineering Sciences & Humanities, Academy of Technology"
+            "details": "Prof. Srinjoy Bid, Academy of Technology"
         },
         {
-          "details": "Prof. Prasenjit Das"
+          "details": "Prof. Prasenjit Das, Academy of Technology"
         },
         {
-          "details": "Prof. Uday Kumar Mandal"
+          "details": "Prof. Uday Kumar Mandal, Academy of Technology"
         },
         {
-          "details": "Prof. Suman Bhattacharya"
+          "details": "Prof. Suman Bhattacharya, Academy of Technology"
         },
         {
-          "details": "Prof. Abhinaba Dutta"
+          "details": "Prof. Abhinaba Dutta, Academy of Technology"
         },
         {
-          "details": "Prof. Subir Panja"
+          "details": "Prof. Subir Panja, Academy of Technology"
         },
         {
-          "details": "Prof. Sirshendu Saha"
+          "details": "Prof. Sirshendu Saha, Academy of Technology"
         },
         {
-          "details": "Prof. Niloy Ghosh"
+          "details": "Prof. Niloy Ghosh, Academy of Technology"
         },
         {
-          "details": "Prof. Basab K Chatterjee"
+          "details": "Prof. Basab K Chatterjee, Academy of Technology"
         },
         
     ],
@@ -111,7 +111,7 @@ export const Data={
             "details": "Prof. Koushik Mondal, Calcutta University"
           },
           {
-            "details": "Prof. Surojit K. Roy, Calcutta University"
+            "details": "Prof. Surojit K. Roy, IIEST Kolkata"
           },
           {
             "details": "Prof. Bandana Majumder, IIT Kharagpur"
