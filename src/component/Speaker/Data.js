@@ -36,7 +36,7 @@ const Data=[
         name:"Dr. George Shaker",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"Department of Electrical and Computer Engineering at University of Waterloo. Selected by the office of the president of NSERC among a group of ten Canadian professors to discuss Canadian research advancement in the Internet of Things (IoT).",
+        details:"Professor, Department of Electrical and Computer Engineering, University of Waterloo. Selected by the office of the president of NSERC among a group of ten Canadian professors to discuss Canadian research advancement in the Internet of Things (IoT).",
         profileImg: "/img/GeorgeShaker.png"
     },
     {
@@ -44,20 +44,20 @@ const Data=[
         name:"Dr. Lorenzo Servadei",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"Head of AI for Chip Design @SonyAI | Sr. Lecturer @TUM Technical University of Munich    Munich, Bavaria, Germany",
+        details:"Head of AI for Chip Design @SonyAI | Sr. Lecturer @TUM Technical University of Munich, Munich, Bavaria, Germany",
         profileImg: "/img/Lorenzo1.png"
     },
     {
         personalLink:"#1",
-        name:"Said Broumi",
+        name:"Prof. Said Broumi",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"Laboratory of Information Processing, Faculty of Science Ben M’Sik University of Hassan II, Casablanca, Morocco",
+        details:"Faculty of Science Ben M’Sik University of Hassan II, Laboratory of Information Processing, Casablanca, Morocco",
         profileImg: "/img/SaidBroumi.png"
     },
     {
         personalLink:"#1",
-        name:"Soheil Shalahshour",
+        name:"Prof. Soheil Shalahshour",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
         details:"Faculty of Engineering and Natural Sciences Istanbul Okan University, Turkey",
@@ -71,20 +71,20 @@ const Data=[
         details:"Faculty of Information Sciences and Arts,Toyo University, Kawagoe, Japan",
         profileImg: "/img/TakaakiGoto.png"
     },
-    {
-        personalLink:"#4",
-        name:"Prof. Ajay Kr Ray",
-        // topic:"to be updated...",
-        details:"Ex-Professor, IIT Kharagpur & Ex-Director, IIEST Shibpur, Padma Shri Awardee",
-        // designation:"Ex-Professor, IIT Kharagpur & Ex-Director, IIEST Shibpur, Padma Shri Awardee",
-        profileImg: "/img/AjaiKRRay.jpg"
-    },
+    // {
+    //     personalLink:"#4",
+    //     name:"Prof. Ajay Kr Ray",
+    //     // topic:"to be updated...",
+    //     details:"Ex-Professor, IIT Kharagpur & Ex-Director, IIEST Shibpur, Padma Shri Awardee",
+    //     // designation:"Ex-Professor, IIT Kharagpur & Ex-Director, IIEST Shibpur, Padma Shri Awardee",
+    //     profileImg: "/img/AjaiKRRay.jpg"
+    // },
     {
         personalLink:"#1",
         name:"Dr. V Ramgopal Rao",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"VC BITS PILLANI",
+        details:"Vice Chancellor, BITS PILLANI",
         profileImg: "/img/RamgopalRao.png"
     },
     {
@@ -92,7 +92,7 @@ const Data=[
         name:"Prof. Debashis De",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"MAKAUT",
+        details:"Professor, Dept. of Computer Science & Engineering, MAKAUT",
         profileImg: "/img/DebashisDe.png"
     },
     {
@@ -104,7 +104,7 @@ const Data=[
     {
         personalLink:"#1",
         name:"Dr. Dip Prakash Samajdar",
-        details:"Electronics & Communications Engineering Assistant Professor, Solar Cells and VLSI Devices IIITDM, Jabalpur",
+        details:"Assistant Professor, Electronics & Communications Engineering, Solar Cells and VLSI Devices IIITDM, Jabalpur",
         profileImg: "/img/DipPrakashSamajdar.png"
     },
     {
