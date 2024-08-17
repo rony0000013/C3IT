@@ -86,6 +86,12 @@ const Home = () => {
   //       setwidth(window.innerWidth)
   //     })
   //   })
+  const [width,setwidth]=useState(window.innerWidth);
+    useEffect(()=>{
+      window.addEventListener("resize",()=>{
+        setwidth(window.innerWidth)
+      })
+    })
   return (
     <>
       <Slider />
@@ -97,6 +103,8 @@ const Home = () => {
       <About />
     
       <Speaker />
+
+      <iframe title='brochure' src="https://drive.google.com/file/d/1BV_2ByiagHR7E9IUqj31CdJgr0f0oz9R/preview" width="100%" height={(width>768)?"1070px":"470px"} allow="autoplay"></iframe>
       
       <Contact />
       <Faq />

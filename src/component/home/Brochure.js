@@ -85,7 +85,8 @@ const Brochure = () => {
       </div>
       <div className="container mt-5 mb-5" style={{width: "100%", textAlign: "center", justifyItems: "center", alignItems: "center"}}>
       
-      <iframe title='brochure' src="https://drive.google.com/file/d/1BV_2ByiagHR7E9IUqj31CdJgr0f0oz9R/preview" width="100%" height={(width>768)?"1070px":"470px"} allow="autoplay"></iframe>
+      {/* <iframe title='brochure' src="https://drive.google.com/file/d/1BV_2ByiagHR7E9IUqj31CdJgr0f0oz9R/preview" width="100%" height={(width>768)?"1070px":"470px"} allow="autoplay"></iframe> */}
+      
          {/* <Link to="/brochure-detail">
           <button type="button" className="btn btn-lg col-ab-ccics" style={{fontSize: 40, color: "white"}}>CALL FOR PAPERS</button>
         </Link>  */}

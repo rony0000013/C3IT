@@ -23,10 +23,11 @@ const Data=[
         personalLink:"#",
         name:"Prof. Anindita Banerjee",
         post:"Patron",
-        detail:"Co-founder & Trustee Ananda Educational Development & Charitable Organization",
+        detail:"Co-founder & Chairman Trustee,  Academy of Technology",
         twLink:"#",
         lnLink:"#",
-        fbLink:"#"
+        fbLink:"#",
+        profileImg: "/img/aninditaBanerjee.png"
     }
 ]
 export default Data;

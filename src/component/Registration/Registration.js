@@ -29,7 +29,7 @@ const Registration = () => {
         <div className="register">
           <h1 style={{textAlign:"center"}}>REGISTRATION</h1><br/>
           <p className='regcontents'>
-            It is mandatory for at least one author of an accepted paper to register in order for the paper to appear in the Proceedings and be included in the Technical Program. For authors with multiple accepted papers, one full registration is valid for up to 2 papers. Registration fee, which includes the conference registration kit, participation in all the activities of the conference, and intersession refreshments, is as follows:
+            It is mandatory for at least one author of an accepted paper to register in order for the paper to appear in the Proceedings and be included in the Technical Program. For authors with multiple accepted papers registration must be made by at least one author for each of the papers. Registration fee, which includes the conference registration kit, participation in all the activities of the conference, and intersession refreshments, is as follows:
           </p>          
           <div className="regtables">
 
@@ -156,7 +156,7 @@ const Registration = () => {
               <li>Mention the paper ID, Phone No. and e-mail id on back side of the DD.</li>
               <li>DD acknowledgement will be sent to the e-mail id mentioned on the back side of the DD.</li>
             </ul> */}
-            <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>Payment for registration can also be made by way of bank transfer.</p>
+            <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>Payment for registration can be made by online bank transfer only.</p>
             <ul>
               {key.map((k)=>(<p><span style={{fontWeight:700, fontSize: "16px"}}>{k}</span>: {data[0].pay[k]}</p>))}
             </ul>
