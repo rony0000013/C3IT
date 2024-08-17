@@ -135,21 +135,27 @@ const Registration = () => {
                 data[0].nonrefund.map((e)=>(<li style={{textAlign:"justify"}}>{e}</li>))
               }
             </ul>
-            <a href="https://docs.google.com/forms/d/1l232HBEk67ZUoJagb5AFGZBywjo9owFV_-PA_GQLcJs/viewform?pli=1&pli=1&edit_requested=true" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE REGISTRATION FORM</p></a>
+            {/* <a href="https://docs.google.com/forms/d/1l232HBEk67ZUoJagb5AFGZBywjo9owFV_-PA_GQLcJs/viewform?pli=1&pli=1&edit_requested=true" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>To complete the registration process, please click <span> </span>here to fill the Google Form</p></a>
+            <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE LIST OF ACCEPTED PAPERS</p></a> */}
+            <p className="donwloadForm">TO COMPLETE THE REGISTRATION PROCESS, PLEASE<span>
+              <a href="https://forms.gle/oagHiFVmJpzp33gg6" style={{ color: "orange",fontWeight:700}}> CLICK HERE </a>
+            </span>TO FILL THE GOOGLE FORM</p>
+
             <a href="#" style={{textDecoration:"none", color: "orange",fontWeight:700}}><p>DOWNLOAD THE LIST OF ACCEPTED PAPERS</p></a>
+
         </div>
       </div> 
       <hr/>
       {/* MODE OF PAYMENT  */}
       <div className='pay'>
             <h1 style={{textAlign:"center"}}>MODE OF PAYMENT</h1><br/>
-            <p>
+            {/* <p>
               <span style={{textDecoration:"none", color: "orange",fontWeight:700}}>Payment for registration can be made by way of Demand Draft</span> (from any nationalized bank) and should be drawn in favour of <span style={{textDecoration:"none", color: "black",fontWeight:700}}>"Academy of Technology Conference Account"</span> payable at <span style={{textDecoration:"none", color: "black",fontWeight:700}}>Kolkata.</span>
             </p>
             <ul>
               <li>Mention the paper ID, Phone No. and e-mail id on back side of the DD.</li>
               <li>DD acknowledgement will be sent to the e-mail id mentioned on the back side of the DD.</li>
-            </ul>
+            </ul> */}
             <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>Payment for registration can also be made by way of bank transfer.</p>
             <ul>
               {key.map((k)=>(<p><span style={{fontWeight:700, fontSize: "16px"}}>{k}</span>: {data[0].pay[k]}</p>))}
@@ -160,16 +166,16 @@ const Registration = () => {
     <div className='communication'>
         <div>
         <h1 style={{textAlign:"center"}}>COMMUNICATION</h1><br/>
-        <div>
+        {/* <div>
           <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>For Softcopy (Registration Form and Bank Transfer Receipt):</p>
           <ul>
           {data[0].soft.map((s)=>(<li>{s}</li>))}
           </ul>
-        </div>
-          <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>For Hardcopy (DD/ Bank Transfer Receipt and Registration Form):</p>
+        </div> */}
+          {/* <p style={{textDecoration:"none", color: "orange",fontWeight:700, fontSize: "20px"}}>For Hardcopy (DD/ Bank Transfer Receipt and Registration Form):</p>
           <ul>
           {data[0].hard.map((s)=>(<li>{s}</li>))}
-          </ul>
+          </ul> */}
         </div>
         <h5 style={{color:"red"}}>
             Rs. 500/- will be charged for the late registration.

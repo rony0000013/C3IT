@@ -69,7 +69,10 @@
     border: solid 2px black;
     text-align: center;
 }
-
+.donwloadForm{
+    font-weight: bold;
+    font-size: 1.05vw;
+}
 @media (max-width:838px) {
     .regmain{
         margin: 14vh 15px;

@@ -43,14 +43,15 @@ const RegData=[
         soft:[
             "Please rename your scanned copy of C3IT2024 Registration Form with your Paper ID (PaperID_regform.PDF).",
             "Please rename your Bank Transfer Receipt with your Paper ID (PaperID_banktr.PDF).",
-            "Please mention 'C3IT2024 Registration Form and DD/ Bank Transfer Receipt for Paper no. ZZZ' in the subject line of the email where 'ZZZ' is your paper number.",
+            "Please mention 'C3IT2024 Registration Form and Bank Transfer Receipt for Paper no. ZZZ' in the subject line of the email where 'ZZZ' is your paper number.",
             "Send the above files to the conference mail conference@aot.edu.in."
         ],
         hard:[
-            "Send the DD/ Bank Transfer Receipt and duly filled C3IT2024 Registration Form by Registered Post or Speed Post on or before September 01, 2024 to Conveners, C3IT2024,",
-            "Department of ECE, Academy of Technology,",
-            "Adisaptagram, Hooghly- 712121, West Bengal, India.",
-            "Please mention 'C3IT2024 Registration Form and DD/ Bank Transfer Receipt for Paper no. ZZZ' on the top of the envelope."
+            "Send the Bank Transfer Receipt and duly filled C3IT2024 Registration Form by Registered Post or Speed Post on or before September 01, 2024 to Conveners, C3IT2024,",
+            // "Academy of Technology, Aedconagar Adisaptagram, Hooghly, PIN- 712121, Westbengal, India",
+            "Academy of Technology, Aedconagar Adisaptagram Hooghly-712121 West Bengal, India",
+            "Please mention 'C3IT2024 Registration Form and Bank Transfer Receipt for Paper no. ZZZ' on the top of the envelope.",
+            // "To complete the registration process, please click here to fill the Google Form"
         ]
     }
 ];
