@@ -3,7 +3,7 @@ const RegData=[
         details: [
                 "Each paper, in order to be published in the conference proceedings and final program, requires at least one author to be registered.",
                 "If multiple authors of a paper wish to attend the conference, separate registration will be mandatory for each author.",
-                "An author may present a maximum of two papers but registraion must be made by one of the authors for each paper",
+                "An author may present a maximum of two papers but registration must be made by one of the authors for each paper.",
                 "If an author has got more than two accepted papers, each paper has to be registered separately.",
                 "Maximum allowed pages for the camera-ready paper are six. For extra pages, the author should pay Rs. 1000/- per page.",
                 "It is obligatory to present the paper during the conference for submission in IEEE Xplore.",
