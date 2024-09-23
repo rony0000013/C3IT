@@ -1,0 +1,68 @@
+ 
+  /* Headings */
+  .heading {
+    text-align: center;
+    font-size: 2.5vmax;
+    font-weight: bold;
+    margin-bottom: .3vmax;
+  }
+  
+  /* Iframe container */
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vmax;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  
+  /* Iframe styling */
+  .iframe {
+    width: 80%;
+    height: 80vh;
+    max-width: 1200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .saperator{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(63, 63, 63);
+  }
+
+  /* Styling the button itself */
+.download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vmax;
+    background-color: #0ea026; /* Primary blue color */
+    color: white;
+    padding: 1vmax;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #096800; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+  
+  .download-btn:active {
+    background-color: #096800; /* Even darker when pressed */
+    transform: translateY(0); /* Return to normal */
+  }
+  
+  /* Icon specific styling */
+  .download-icon {
+    font-weight: 500;
+    font-size: 2.3vmax;
+    color: white;
+  }
+  
