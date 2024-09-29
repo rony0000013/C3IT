@@ -1,0 +1,82 @@
+/* Styles for the floating button */
+.floating-button {
+    position: fixed;
+    bottom: 20%; /* Adjust the position relative to the bottom */
+    right: 20px;  /* Adjust the position relative to the right */
+    width: 10%; /* Make width responsive */
+    height: 60px; /* Set height for the button */
+    background-color: #ff0800; /* YouTube-like red */
+    color: white;
+    border: none;
+    border-radius: 50px; /* More pill-shaped for better text fit */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    font-size: 16px; /* Text size for larger screens */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; /* Padding for spacing around the content */
+    z-index: 199; /* Ensure it stays on top of other elements */
+    transition: background-color 0.3s ease, width 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    background-color: #cc0000; /* Slightly darker red on hover */
+  }
+  
+  /* Flex container to align icon and text */
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  /* Responsive text */
+  .watchLive {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  /* Make the icon a little smaller */
+  .yt-icon {
+    font-size: 24px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .floating-button {
+      bottom: 15px;
+      right: 15px;
+      height: 50px; /* Reduce button height on smaller screens */
+      padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .watchLive {
+      font-size: 12px; /* Smaller text for smaller screens */
+    }
+  
+    .yt-icon {
+      font-size: 20px; /* Smaller icon for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .floating-button {
+      bottom: 10px;
+      right: 10px;
+      height: 45px; /* Further reduce height for very small screens */
+      padding: 0 12px;
+    }
+  
+    .watchLive {
+      display: none; /* Optionally hide the text on very small screens */
+    }
+  
+    .yt-icon {
+      font-size: 18px; /* Smaller icon on very small screens */
+    }
+  }
+  

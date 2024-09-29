@@ -28,6 +28,7 @@ import {
 } from "react-router-dom";
 import BrochureDetail from "./component/home/BrochureDetail";
 import GoToTop from "./component/home/GoToTop";
+import Ytlive from "./component/YoutubeLive/Ytlive.js";
 // import { GrHide } from "react-icons/gr";
 function App() {
 
@@ -97,6 +98,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Ytlive/>
       <Footer/>
     </Router>
     </div>

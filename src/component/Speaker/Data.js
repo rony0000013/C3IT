@@ -99,7 +99,7 @@ const Data=[
         personalLink:"#1",
         name:"Dr. Anindya Mukherjee",
         details:"Infineon Technologies AG, Neubiberg, Germany",
-        profileImg: "/img/AnindyaMukherjee.png"
+        profileImg: "/img/defaultSpeaker.png"
     },
     {
         personalLink:"#1",

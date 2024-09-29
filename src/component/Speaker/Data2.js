@@ -1,11 +1,11 @@
 const Data2=[
     {
         personalLink:"#1",
-        name:"Prof. Pushpak Bhattacharyya",
+        name:"Dr. Sridhar Mitta",
         // designation:"Head of AI for Chip Design, Sr. Lecturer",
         // topic:"to be updated...",
-        details:"Bhagat Singh Rekhi Chair Professor of Computer Science and Engineering at IIT Bombay",
-        profileImg: "/img/PushpakBhattacharyya.png"
+        details:"Founder & Managing Director, NextWealth Entrepreneurs Pvt. Ltd",
+        profileImg: "/img/SridharMitta.png"
     },
     // {
     //     personalLink:"#2",
